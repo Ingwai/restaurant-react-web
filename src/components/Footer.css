@@ -1,0 +1,33 @@
+.footer {
+	width: 100%;
+	height: 10vh;
+	background-color: #121619;
+	display: grid;
+	place-content: center;
+}
+
+.socialMedia svg {
+	color: white;
+	margin: 1rem 2rem;
+	font-size: 3.5rem;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+
+.socialMedia svg:hover {
+	color: rgb(0, 195, 255);
+}
+
+.footer p {
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 920px) {
+	.footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+	}
+}
