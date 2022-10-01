@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 function App() {
 	return (
 		<div className='App'>
-			<BrowserRouter>
+			<BrowserRouter basename='/react/restaurant-react-web'>
 				<Navbar />
 				<Routes>
 					<Route path='/' element={<Navigate to='Home' />} />
